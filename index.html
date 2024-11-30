@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body class="font-Jost">
     <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50">
       <nav
         class="max-w-[1350px] mx-auto flex items-center justify-between h-16 sm:h-20"
@@ -37,7 +37,7 @@
         </button>
         <div
           id="nav-menu"
-          class="absolute top-0 left-0 min-h-[80vh] w-full bg-green-950 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden bg-opacity-50 lg:static lg:min-h-fit lg:bg-transparent lg:w-auto"
+          class="absolute left-[-100%] top-0 min-h-[80vh] w-full bg-green-950 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden bg-opacity-50 lg:static lg:min-h-fit lg:bg-transparent lg:w-auto"
         >
           <ul
             class="flex gap-4 flex-col text-3xl items-center lg:flex-row font-extrabold"
@@ -158,7 +158,7 @@
             class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div
-              class="flex items-center gap-5 text-3xl md:text-4xl xl:text-5xl"
+              class="flex items-start gap-5 text-3xl md:text-4xl xl:text-5xl"
             >
               <i class="ri-truck-line"></i>
               <p class="md:text-lg font-bold">
@@ -177,7 +177,7 @@
             class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div
-              class="flex items-center gap-5 text-3xl md:text-4xl xl:text-5xl"
+              class="flex items-start gap-5 text-3xl md:text-4xl xl:text-5xl"
             >
               <i class="ri-plant-line"></i>
               <p class="md:text-lg font-bold">
@@ -196,7 +196,7 @@
             class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div
-              class="flex items-center gap-5 text-3xl md:text-4xl xl:text-5xl"
+              class="flex items-start gap-5 text-3xl md:text-4xl xl:text-5xl"
             >
               <i class="ri-customer-service-line"></i>
               <p class="md:text-lg font-bold">
@@ -215,7 +215,7 @@
             class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div
-              class="flex items-center gap-5 text-3xl md:text-4xl xl:text-5xl"
+              class="flex items-start gap-5 text-3xl md:text-4xl xl:text-5xl"
             >
               <i class="ri-money-dollar-circle-line"></i>
               <p class="md:text-lg font-bold">
@@ -230,6 +230,81 @@
           </div>
         </div>
       </div>
+
+      <!-- About Us -->
+      <section id="about" class="relative overflow-hidden">
+        <div class="absolute -top-8 -right-12 opacity-50">
+          <img
+            src="assets/img/leaf-3.png"
+            alt="leaf_image"
+            class="w-40 md:w-52 xl:w-64"
+          />
+        </div>
+        <div
+          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+        >
+          <h2 class="text-yellow-500">About Us</h2>
+          <p class="max-w-2xl">Follow instruction for more</p>
+        </div>
+
+        <div class="container space-y-10 xl:space-y-0">
+          <!-- item 1 -->
+          <div class="flex flex-col items-center lg:flex-row-reverse gap-5">
+            <!-- image -->
+            <div class="w-full lg:w-1/2">
+              <img
+                src="assets/img/plant-1.png"
+                alt="about_image"
+                class="w-full sm:w-2/3 md:w-full xl:w-2/3 mx-auto"
+              />
+            </div>
+
+            <!-- content -->
+            <div class="w-full lg:w-1/2">
+              <div class="space-y-5">
+                <h3>
+                  Make your <span class="text-yellow-500">organic</span>
+                  <br />garden
+                </h3>
+                <p class="text-slate-300 font-Lobster">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi, hic minima enim repellendus nesciunt officiis illum
+                  consequuntur eos expedita dolores! Sunt eos sequi temporibus
+                  nihil qui. Error ad accusamus nihil.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 2 -->
+          <div class="flex flex-col items-center lg:flex-row gap-5">
+            <!-- image -->
+            <div class="w-full lg:w-1/2">
+              <img
+                src="assets/img/plant-2.png"
+                alt="about_image"
+                class="w-full sm:w-2/3 md:w-full xl:w-2/3 mx-auto"
+              />
+            </div>
+
+            <!-- content -->
+            <div class="w-full lg:w-1/2">
+              <div class="space-y-5">
+                <h3>
+                  Come with us <br />
+                  <span class="text-yellow-500">grow up</span> your plant
+                </h3>
+                <p class="text-slate-300 font-Lobster">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi, hic minima enim repellendus nesciunt officiis illum
+                  consequuntur eos expedita dolores! Sunt eos sequi temporibus
+                  nihil qui. Error ad accusamus nihil.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
   <script src="assets/main.js"></script>

@@ -8,7 +8,15 @@ module.exports = {
       lg: "768px",
       xl: "1180px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        barlow: ['Barlow Semi Condensed', 'sans-serif'],
+        jost: ['Jost', 'sans-serif'],
+        lobster: ['Lobster', 'cursive'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
+
+    },
     keyframes: {
       move: {
         "50%": { transform: "translateY(-1rem)" },
