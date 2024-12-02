@@ -1,3 +1,5 @@
+const { space } = require("postcss/lib/list");
+
 const navMenu = document.getElementById("nav-menu");
 const hamburger = document.getElementById("hamburger");
 
@@ -17,5 +19,33 @@ hamburger.addEventListener("click", () => {
         navMenu.style.left = "0";
     }
 });
+// const swiper = new Swiper('.swiper', {
+//     // Optional parameters
+//     speed: 400,
+//     spaceBetween: 30,
+//     autoplay: {
+//         delay: 3000,
+//         disableOnInteraction: false
+//     },
+  
+//     // If we need pagination
+//     pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true
+//     },
+    
+//     grabCursor: true,
+//     breapoints:{
+//         640:{
+//             sliidesPerView: 1
+//         }
+//         768:{
+//             sliidesPerView: 2
+//         }
+//         1024:{
+//             sliidesPerView: 3
+//         }
+//     }
+// });
 
 

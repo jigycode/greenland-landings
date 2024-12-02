@@ -51,3 +51,6 @@ h1 {
 .popular_card:hover img {
   @apply -top-8;
 }
+/* .swiper-pagination-bullet {
+  @apply bg-green-500 w-3 h-3;
+} */
